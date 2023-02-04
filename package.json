@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@vitejs/plugin-vue-jsx": "^1.3.4",
+    "vitepress": "^0.21.6",
+    "cross-env": "^7.0.3"
+  },
+  "scripts": {
+    "docs:dev": "cross-env NODE_ENV=development vitepress dev docs ",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs --9980"
+  }
+}
